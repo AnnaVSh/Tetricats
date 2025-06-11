@@ -1,0 +1,168 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+em,
+img,
+strong,
+ol,
+ul,
+li,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    color: inherit;
+    font-family: 'Montserrat';
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+input,
+button,
+textarea,
+select {
+    outline: none;
+    font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+:root {
+    --color-primary-light: #B3E4F9;
+    --color-primary: #37A9FD;
+    --color-primary-dark: #1D6295;
+    --color-f: ##DA5D1A;
+    --color-2: #222222;
+
+    --font-size-xs: 0.75rem;
+    /* 0.75rem 12px */
+    --font-size-sm: 0.875rem;
+    /* 0.875rem 14px */
+    --font-size-base: 3.5rem;
+    /* 1rem 16px */
+    --font-size-md: 3.4rem;
+    /* 1.125rem 55px */
+    --font-size-lg: 3.75rem;
+    /* 1.25rem 60px */
+    --font-size-xl: 5.6rem;
+    /* 1.5rem 90px */
+    --font-size-xxl: 6.25rem;
+    /* 2rem 100px */
+    --font-size-header: 9rem;
+    /* 10rem 150px */
+}
+
+body {
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-base);
+    color: var(--color-dark);
+    background-color: var(--color-light);
+}
+
+h1 {
+    font-size: var(--font-size-header);
+    /* 3rem 150px */
+}
+
+
+h2 {
+    font-size: var(--font-size-xxl);
+    /* 3rem 100px */
+}
+
+
+h3 {
+    font-size: var(--font-size-xxl);
+    /* 2rem 32px */
+}
+
+
+h4 {
+    font-size: var(--font-size-xl);
+    /* 1.5rem 90px */
+}
+
+
+h5 {
+    font-size: var(--font-size-lg);
+    /* 1.25rem 60px */
+}
+
+
+h6 {
+    font-size: var(--font-size-md);
+    /* 1.125rem 50px */
+}
+p {
+    font-size: var(--font-size-base);
+    /* 2rem 16px */
+}
+
+
+html {
+    color: var(--color-2);
+}
+
+/* Kavoon */
+@font-face {
+    font-family: 'Kavoon';
+    src: url('../fonts/Kavoon-Regular.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;}
+@font-face {
+    font-family: 'Kavivanar';
+    src: url('../fonts/Kavivanar-Regular.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;}
