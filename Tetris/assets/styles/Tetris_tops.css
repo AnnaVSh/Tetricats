@@ -1,0 +1,87 @@
+body{
+    background: url(../images/f56683902beb363db6d29ec1fd3a507d.jpg);
+    background-size: cover;
+    background-position:  bottom;
+    height: 100vh;
+}
+
+header h4{
+    color: #DA5D1A;
+}
+section.Top h2{
+    color: #D1E6C5;
+    text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+    padding-bottom: 10px;
+}
+
+section.Top .Leaders .player h5,
+section.Top .Leaders .player1 h5{
+    color: #ffffff;
+    padding-bottom: 20px;
+    text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+section.Top .Leaders .player .icon h5,
+section.Top .Leaders .player1 .icon h5{
+    color: #DA5D1A;
+}
+
+
+section.Top .Leaders{
+    width: 950px;
+    height: 585px;
+    line-height: 126%;
+}
+
+section.Top .Leaders .player1 {
+    width: 921px;
+    height: 186px;
+    padding: 10px 10px;
+    border: 8px solid #AC737A ;
+    border-radius: 20px;
+    background-color: #fbe8d9cc;
+    margin: -10px ;
+}
+
+section.Top .player1 .buttons .Save{
+    padding: 0 50px ;
+}
+section.Top .player1 .buttons .Delete{
+    padding: 0 50px ;
+}
+section.Top .player1 .buttons .Delete h5,
+section.Top .player1 .buttons .Save h5   {
+    color: #DA5D1A;
+    text-shadow: none
+    
+}
+
+section.Top .player1 .buttons .Save i{
+    padding: 0 20px;
+    color: #DA5D1A;
+}
+section.Top .player1 .buttons .Delete i{
+    padding: 0 20px;
+    color: #DA5D1A;
+}
+
+section.button{
+    padding: auto;
+    margin-top: 40px;
+}
+
+section.button h6{
+    color: #DA5D1A;
+    background-color: #F9975A;
+    border: 10px solid #FCC37C;
+    padding: 10px 10px;
+    border-radius: 40px;
+}
