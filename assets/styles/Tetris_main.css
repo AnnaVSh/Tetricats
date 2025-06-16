@@ -11,9 +11,18 @@ body{
     height: 100vh;
 }
 
-h2{
+h4{
     color: #DA5D1A;
-    border: 17px solid ;
+    background-color: #FCC37C;
+    border: 15px solid;
     padding: 10px 10px;
     border-radius: 32px;
 }
+
+section.button1 {
+    padding: 0 415px;
+}
+section.button2 {
+    padding: 0 355px;
+}
+

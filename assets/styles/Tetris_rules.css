@@ -25,7 +25,9 @@ main p{
 }
 
 section.button{
+    position: relative;
     padding: auto;
+    position: absolute;
 }
 
 section.button h6{

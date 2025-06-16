@@ -31,7 +31,7 @@ section.button h6{
     border-radius: 40px;
     }
 
-section.container_game{
+section.container_game .game{
     overflow: hidden;
     display: grid;
     width: 420px;
@@ -47,4 +47,8 @@ section.container_game{
 
 section.container_game .box{
     border: 1px solid #3f355775
+}
+
+section.container_stats h6{
+    color: #DA5D1A;
 }

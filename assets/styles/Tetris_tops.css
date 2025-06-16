@@ -1,13 +1,18 @@
 body{
     background: url(../images/f56683902beb363db6d29ec1fd3a507d.jpg);
     background-size: cover;
-    background-position:  bottom;
-    height: 100vh;
+    background-position: bottom;
 }
 
 header h4{
     color: #DA5D1A;
 }
+
+section.Top .icon i{
+    color: #DA5D1A;
+    padding-right: 50px;
+}
+
 section.Top h2{
     color: #D1E6C5;
     text-shadow:
@@ -42,13 +47,12 @@ section.Top .Leaders{
 }
 
 section.Top .Leaders .player1 {
-    width: 921px;
+    width: 980px;
     height: 186px;
     padding: 10px 10px;
     border: 8px solid #AC737A ;
     border-radius: 20px;
     background-color: #fbe8d9cc;
-    margin: -10px ;
 }
 
 section.Top .player1 .buttons .Save{
